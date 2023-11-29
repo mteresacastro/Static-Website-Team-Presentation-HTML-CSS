@@ -31,14 +31,15 @@
 }
 
 .title__contact {
-  color: #099d8d;
-  font-family: "Rubik";
+  color: var(--color-tittle);
+  font-family:  var(--font-family-Rubik);
   font-weight: 500;
   text-transform: uppercase;
   font-size: 2.4rem;
+  padding-bottom: 0.5rem;
 }
 .fa-asterisk{
-  color: aqua;
+  color: deeppink;
   font-size: 0.8rem;
   vertical-align: top;
 }
@@ -51,13 +52,15 @@
 }
 
 input[type=text]{
+  padding: 0.5rem 0.5rem;
   height: 4.5rem;
-  color: #54585a;
+  color: black;
 }
 
 input[type=email]{
+  padding: 0.5rem 0.5rem;
   height: 4.5rem;
-  color: #54585a;
+  color: black;
   margin-bottom: 1.5rem;
   @media (min-width: 1200px){
     min-width: 29.5rem;
@@ -65,21 +68,22 @@ input[type=email]{
   }
 
 input[type=tel]{
+  padding: 0.5rem 0.5rem;
   height: 4.5rem;
-  color: #54585a;
+  color: black;
   @media (min-width: 1200px){
     width: 16.2rem;
   }
 }
 
 .textArea {
-  color: #54585a;
+  color: black;
+  padding: 0.5rem 0.5rem;
   font-family: "Open Sans";
   @media (min-width: 768px){
     border: #b8b8b9 1px solid;
   }
 }
-
 textarea:focus{
     background-color: #b8b8b9;
     opacity: 40%;
@@ -103,7 +107,7 @@ input:focus {
   font-family: "Open Sans";
   font-weight: 500;
   color: white;
-  background-color: #099d8d;
+  background-color: var(--color-subtitle);
   font-size: 1.6rem;
   border: none;
 
@@ -119,6 +123,7 @@ input:focus {
 }
 
 .link_lumos {
+  font-family:'Licorice';
   text-decoration: none;
   color: white;
 }
