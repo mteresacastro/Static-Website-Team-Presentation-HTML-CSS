@@ -7,6 +7,7 @@
   &__title {
     height: 6rem;
     width: 100%;
+    background-color: var(--color-tittle); 
     display: flex;
     text-wrap: nowrap;
     align-items: center;
@@ -17,10 +18,12 @@
     font-size: 4rem;
     color: rgb(246, 241, 241);
     font-weight: bold;
+    opacity: 90%;
     @media (min-width: 768px) {
       width: 27%;
       justify-content: flex-start;
       padding-left: 4.5rem;
+      background: none;
     }
     @media (min-width: 1200px) {
       padding-left: 6rem;
